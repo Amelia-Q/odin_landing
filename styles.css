@@ -68,8 +68,9 @@ body {
 
 .placeholder {
     background-color: #989a9e;
-    width: 500px;
+    width: 100%;
     height: auto;
+    display: flex;
 }
 
 .small-title {
@@ -101,8 +102,7 @@ body {
     border-radius: 5px; 
     margin: 0;
     padding: 0;
-    display: flex;
-    object-fit: contain;
+    
 }
 
 .img-text {
